@@ -7,10 +7,10 @@ const Navigation = (props) => (
     <a className="closebtn" onClick={() => props.closeNav()}>&times;</a>
     <div className="overlay-content">
       <Link to="/" onClick={() => props.closeNav()}>Home</Link>
-      <Link to="/vitamin" onClick={() => props.closeNav()}>Vitamin Juice</Link>
-      <a href="">Clothing</a>
-      <a href="">Supplements</a>
-      <a href="">Contact</a>
+      <Link to="/category/vitamin" onClick={() => props.closeNav()}>Vitamin Juice</Link>
+      <Link to="/category/clothing" onClick={() => props.closeNav()}>Clothing</Link>
+      <Link to="/category/supplement" onClick={() => props.closeNav()}>Supplements</Link>
+      <a href="/contact">Contact</a>
     </div>
   </div>
 );

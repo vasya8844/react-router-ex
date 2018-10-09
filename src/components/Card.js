@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Card.css';
 
 const Card = (props) =>  (
-  <div className={props.card.animation}>
+  <div className="card">
     <Link to={`/product/${props.card.id}`}>
       <div className="front">
         <img src="juice.jpg" alt="Avatar" className="card-image" />

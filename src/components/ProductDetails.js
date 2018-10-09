@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductDetails = (props) => {
     return (
-        <div className={props.card.animation}>
+        <div className="card">
             <div className="front">
                 <img src="/juice.jpg" alt="Avatar" className="card-image" />
                 <div className="container">

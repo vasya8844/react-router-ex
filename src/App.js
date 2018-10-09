@@ -4,6 +4,7 @@ import logo from './logo.png';
 import './App.css';
 import Home from './components/Home';
 import Vitamin from './components/Vitamin';
+import Category from './components/Category';
 import Navigation from './components/Navigation';
 import ProductDetails from './components/ProductDetails';
 import Lost from './components/Lost';
@@ -64,6 +65,7 @@ class App extends Component {
               <Home cards={this.state.cards} />
             )} />
             <Route exact path="/vitamin" component={Vitamin} />
+            <Route exact path="/category/:category" component={Category}/>
             <Route exact path="/product/:id" render={(props) => {
               let cardPosition = props.location.pathname.replace('/product/', '');
               return (
