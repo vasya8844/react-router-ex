@@ -14,7 +14,6 @@ class Category extends Component {
     }
     byCategory(category) {
         const cards = this.props.cards.filter((card) => card.category === category)
-        console.log(cards)
         return {
             category: category,
             cards: cards
