@@ -6,7 +6,7 @@ const Lost = () => {
             <h1 style={{color: "white"}}>
                 You're lost! Get back...get..back..now!!!
             </h1>
-            <img style={{ paddingTop: "50px"}} src="/images/biohazard.png" alt="Back image"/>
+            <img src="/images/biohazard.png" alt="You should back." style={{ paddingTop: "50px"}}/>
         </div>
     )
 }

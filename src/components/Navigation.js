@@ -10,7 +10,7 @@ const Navigation = (props) => (
       <Link to="/category/vitamin" onClick={() => props.closeNav()}>Vitamin Juice</Link>
       <Link to="/category/clothing" onClick={() => props.closeNav()}>Clothing</Link>
       <Link to="/category/supplement" onClick={() => props.closeNav()}>Supplements</Link>
-      <a href="/contact">Contact</a>
+      <Link to="/contact" onClick={() => props.closeNav()}>Contact</Link>
     </div>
   </div>
 );

@@ -30,7 +30,7 @@
     "price": 13.99
   },
   { "id": 5,
-    "category": "suplement",
+    "category": "supplement",
     "title": "Jogging pants",
     "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
     "price": 6.99
@@ -54,19 +54,19 @@
     "price": 20.99
   },
   { "id": 9,
-    "category": "suplement",
+    "category": "supplement",
     "title": "Mental booster",
     "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
     "price": 34.99
   },
   { "id": 10,
-    "category": "suplement",
+    "category": "supplement",
     "title": "Pre-workout supplements",
     "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
     "price": 5.99
   },
   { "id": 11,
-    "category": "suplement",
+    "category": "supplement",
     "title": "Post-workout supplements",
     "description": "Need a jump on your vitamins while drinking? Tired of popping the pills? Drink our vitamin enhanced juice, available in several flavours.",
     "price": 80.99

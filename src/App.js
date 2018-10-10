@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import logo from './logo.png';
 import './App.css';
 import Home from './components/Home';
-import Vitamin from './components/Vitamin';
 import Category from './components/Category';
+import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import ProductDetails from './components/ProductDetails';
 import Lost from './components/Lost';
@@ -64,8 +64,9 @@ class App extends Component {
             <Route exact path="/" render={(props) => (
               <Home cards={this.state.cards} />
             )} />
-            <Route exact path="/vitamin" component={Vitamin} />
-            <Route exact path="/category/:category" component={Category}/>
+            <Route exact path="/category/:category" render={(props) => 
+              <Category params={props.match.params} cards={this.state.cards}/>
+            }/>
             <Route exact path="/product/:id" render={(props) => {
               let cardPosition = props.location.pathname.replace('/product/', '');
               return (
@@ -74,6 +75,7 @@ class App extends Component {
                 />
               )
             }} />
+            <Route exact path="/contact" component={Contact} />
             <Route component={Lost} />
           </Switch>
         </div>
